@@ -46,6 +46,7 @@ class MemeGenerator extends Component {
                         value={this.state.topText}
                         onChange={this.handleChange}
                     /> 
+                    <br/>
                     <input 
                         type="text"
                         name="bottomText"
@@ -53,7 +54,7 @@ class MemeGenerator extends Component {
                         value={this.state.bottomText}
                         onChange={this.handleChange}
                     /> 
-                
+                <br/>
                     <button>AltImg</button>
                 </form>
                 <div className="meme">
